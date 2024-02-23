@@ -1,18 +1,18 @@
-
 package ed.refugiocanino;
 
 public class MainRefugioCanino {
 
     public static void main(String[] args) {
-        
+
         System.out.println("Bienvenido a la base de datos del refugio");
-        
+
         // Crear una instancia del refugio
         RefugioCanino refugio = new RefugioCanino();
 
         // Agregar algunos perros al refugio
         refugio.agregarPerro("Max", "Labrador");
         refugio.agregarPerro("Bella", "Pastor Alemán");
+        refugio.agregarPerro("Toby", "Boxer");
 
         // Mostrar la lista de perros en el refugio
         System.out.println("\nLista de perros en el refugio:");
